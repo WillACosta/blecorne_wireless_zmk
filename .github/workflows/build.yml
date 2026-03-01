@@ -1,0 +1,12 @@
+name: Build ZMK Firmware
+on:
+  workflow_dispatch:
+  push:
+    paths-ignore:
+      - "keymap-drawer/**"
+      - "assets/**"
+      - "README.md"
+
+jobs:
+  build:
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
