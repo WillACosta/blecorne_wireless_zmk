@@ -1,7 +1,7 @@
 # ZMK/Zephyr
 build/
 .west/
-zephyr/
+# zephyr/
 modules/
 app/
 
@@ -20,4 +20,4 @@ Thumbs.db
 *.bin
 *.hex
 
-boards/
+# boards/
