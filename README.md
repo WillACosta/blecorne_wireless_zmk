@@ -47,3 +47,7 @@ If shipping allows, batteries are included. The PCB features a micro JST connect
 - [Miryoku](https://github.com/manna-harbour/miryoku)
 - [Wireless SMT Corne Docs](https://boardsource.xyz/blogs/guides/wireless-smt-corne-docs)
 - [ZMK Docs](https://zmk.dev/docs)
+
+## Example Repositoryes
+
+- [Lily58 ZMK Config](https://github.com/braun-steven/lily58-wireless-view-zmk-config/tree/main)

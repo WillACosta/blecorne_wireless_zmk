@@ -1,1 +1,23 @@
+# ZMK/Zephyr
+build/
+.west/
+zephyr/
+modules/
+app/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Personal
+*.uf2
+*.bin
+*.hex
+
+boards/

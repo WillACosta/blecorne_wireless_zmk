@@ -44,8 +44,8 @@
             >;
         };
 
-        function_layer {}
+        function_layer { status = "reserved"; };
 
-        special_layer {}
+        special_layer { status = "reserved"; };
     };
 };
