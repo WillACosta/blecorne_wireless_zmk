@@ -54,12 +54,12 @@
 
         function_layer {
           display-name = "FN";
-          bindings = <>;
+          status = "reserved";
         };
 
         special_layer {
           display-name = "SPEC";
-          bindings = <>;
+          status = "reserved";
         };
     };
 };
