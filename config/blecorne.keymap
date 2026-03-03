@@ -10,7 +10,6 @@
 / {
     chosen {
         zmk,physical-layout = &foostan_corne_6col_layout;
-        // zmk,physical-layout = &foostan_corne_5col_layout;
     };
 };
 
@@ -21,7 +20,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
-          display-name = "QWERTY";
+          display-name = "BASE";
 
             bindings = <
                 &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
@@ -53,8 +52,14 @@
             >;
         };
 
-        function_layer { display-name = "FN"; };
+        function_layer {
+          display-name = "FN";
+          bindings = <>;
+        };
 
-        special_layer { display-name = "SPEC"; };
+        special_layer {
+          display-name = "SPEC";
+          bindings = <>;
+        };
     };
 };
