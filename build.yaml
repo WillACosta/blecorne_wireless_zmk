@@ -3,11 +3,11 @@ include:
   - board: blecorne_left
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-    shield: nice_view
+    shield: nice_view nice_view_adapter nice_view_gem
     artifact-name: blecorne_left
 
   - board: blecorne_right
-    shield: nice_view
+    shield: nice_view nice_view_adapter nice_view_gem
 
   # Options for resetting the boards
 
